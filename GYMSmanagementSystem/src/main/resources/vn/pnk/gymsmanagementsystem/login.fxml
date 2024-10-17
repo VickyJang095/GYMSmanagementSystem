@@ -46,7 +46,7 @@
          <font>
             <Font size="14.0" />
          </font></Button>
-      <Button fx:id="buttonClose" layoutX="271.0" layoutY="305.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="283.0" style="-fx-background-color: #6DB5CA;" text="Close" textFill="#fffefe">
+      <Button fx:id="buttonClose" layoutX="271.0" layoutY="305.0" mnemonicParsing="false" onAction="#cancelButtonAction" prefHeight="25.0" prefWidth="283.0" style="-fx-background-color: #6DB5CA;" text="Close" textFill="#fffefe">
          <font>
             <Font size="14.0" />
          </font></Button>
@@ -55,5 +55,10 @@
             <Image url="@../../../assets/lock-2.png" />
          </image>
       </ImageView>
+      <Label fx:id="loginMessageLabel" alignment="CENTER" layoutX="228.0" layoutY="218.0" prefHeight="20.0" prefWidth="371.0" textFill="#b10c0c">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
