@@ -74,7 +74,7 @@
             <Font size="11.0" />
          </font>
       </CheckBox>
-      <Label fx:id="registrationMessageLabel" alignment="CENTER" layoutX="132.0" layoutY="554.0" prefHeight="17.0" prefWidth="336.0" textFill="#9f1616">
+      <Label fx:id="registrationMessageLabel" alignment="CENTER" layoutX="132.0" layoutY="102.0" prefHeight="17.0" prefWidth="336.0" textFill="#9f1616">
          <font>
             <Font size="11.0" />
          </font>
