@@ -6,8 +6,8 @@ Thành Viên:
 Nguyễn Thanh Nam: 23010056
 Hoàng Thị Minh Ngọc: 23010669
 1. Tài Khoản login
-username: Admin
-password: Password
+username: admin
+password: password
 2. Môi trường 
       1. Apache Netbeans 23, JDK 23
 3. Cơ sở dữ liệu
