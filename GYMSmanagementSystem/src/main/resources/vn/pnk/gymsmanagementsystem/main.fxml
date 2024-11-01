@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" stylesheets="@main.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="white-bg" stylesheets="@main.css" />
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <top>
+            <AnchorPane prefHeight="33.0" prefWidth="1100.0" styleClass="white-bg" stylesheets="@style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="33.0" prefWidth="224.0" style="-fx-background-image: red;" styleClass="bg-color-1" stylesheets="@style.css" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label layoutX="35.0" layoutY="8.0" text="Gyms Management System" textFill="WHITE">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Circle fill="DODGERBLUE" layoutX="1015.0" layoutY="17.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.rightAnchor="73.0" />
+                  <Label layoutX="1042.0" layoutY="8.0" text="active" AnchorPane.rightAnchor="27.333333333333332" />
+                  <Circle fill="#04fd3e" layoutX="1086.0" layoutY="17.0" radius="5.0" stroke="WHITE" strokeType="INSIDE" AnchorPane.rightAnchor="9.0" />
+                  <Label layoutX="854.0" layoutY="8.0" prefHeight="17.0" prefWidth="62.0" text="Welcome" AnchorPane.rightAnchor="184.0" />
+                  <Label layoutX="916.0" layoutY="8.0" prefHeight="17.0" prefWidth="98.0" text="Admin" AnchorPane.rightAnchor="86.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <Label alignment="CENTER_RIGHT" layoutX="675.0" layoutY="8.0" prefHeight="17.0" prefWidth="165.0" text="MM:DD:YYYY" AnchorPane.rightAnchor="259.66666666666663" />
+                  <Label layoutX="245.0" layoutY="9.0" prefHeight="17.0" prefWidth="344.0" text="Darshboard Form" AnchorPane.leftAnchor="245.0" AnchorPane.topAnchor="9.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane prefHeight="567.0" prefWidth="224.0" styleClass="bg-color-1" stylesheets="@style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="21.0" layoutY="98.0" text="Admin ID:" textFill="WHITE" />
+                  <Label layoutX="81.0" layoutY="98.0" prefHeight="17.0" prefWidth="129.0" text="1" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="21.0" layoutY="122.0" text="Username:" textFill="WHITE" />
+                  <Label layoutX="81.0" layoutY="122.0" prefHeight="17.0" prefWidth="134.0" text="admin" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Line endX="81.33332824707031" layoutX="113.0" layoutY="160.0" startX="-92.66666412353516" stroke="WHITE" />
+                  <Label layoutX="21.0" layoutY="180.0" text="Management" textFill="WHITE" />
+                  <Button layoutX="19.0" layoutY="207.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="177.0" styleClass="btn-1" stylesheets="@style.css" text="Employee" />
+                  <Button layoutX="19.0" layoutY="241.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="177.0" styleClass="btn-1" stylesheets="@style.css" text="Customer" />
+                  <Button layoutX="18.0" layoutY="276.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="177.0" styleClass="btn-1" stylesheets="@style.css" text="Package" />
+                  <Button layoutX="18.0" layoutY="309.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="177.0" styleClass="btn-1" stylesheets="@style.css" text="Revenue" />
+                  <Button layoutX="18.0" layoutY="343.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="177.0" styleClass="btn-1" stylesheets="@style.css" text="Statistics" />
+                  <Button layoutX="17.0" layoutY="378.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="177.0" styleClass="btn-1" stylesheets="@style.css" text="Equipment" />
+                  <Label layoutX="21.0" layoutY="421.0" text="Profile" textFill="WHITE" />
+                  <Button layoutX="19.0" layoutY="445.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="177.0" styleClass="btn-1" stylesheets="@style.css" text="Dashboard" />
+                  <Button layoutX="19.0" layoutY="478.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="177.0" styleClass="btn-1" stylesheets="@style.css" text="Edit" />
+                  <FontAwesomeIconView fill="WHITE" glyphName="USER" layoutX="81.0" layoutY="80.0" size="70" />
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="shadow" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="208.0" layoutY="28.0" prefHeight="566.6666666666666" prefWidth="876.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <AnchorPane layoutX="13.333333333333334" layoutY="14.0" prefHeight="200.0" prefWidth="847.0" stylesheets="@style.css" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="16.0">
+                           <styleClass>
+                              <String fx:value="white-bg" />
+                              <String fx:value="radius" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                           <children>
+                              <ScrollPane prefHeight="199.33333333333331" prefWidth="846.6666666666666" styleClass="white-bg" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" styleClass="white-bg" stylesheets="@style.css">
+                                       <children>
+                                          <AnchorPane prefHeight="200.0" prefWidth="1058.0" styleClass="white-bg" stylesheets="@style.css">
+                                             <children>
+                                                <AnchorPane layoutX="27.0" layoutY="24.0" prefHeight="151.0" prefWidth="243.0" stylesheets="@style.css">
+                                                   <styleClass>
+                                                      <String fx:value="bg-color-1" />
+                                                      <String fx:value="radius" />
+                                                   </styleClass>
+                                                   <children>
+                                                      <FontAwesomeIconView fill="WHITE" glyphName="USER" layoutX="27.0" layoutY="101.0" size="70" />
+                                                      <Label alignment="CENTER_RIGHT" layoutX="104.0" layoutY="83.0" prefHeight="27.0" prefWidth="103.0" text="Employees" textFill="WHITE">
+                                                         <font>
+                                                            <Font size="17.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label alignment="CENTER_RIGHT" layoutX="108.0" layoutY="48.0" prefHeight="26.0" prefWidth="100.0" text="0" textFill="WHITE">
+                                                         <font>
+                                                            <Font size="17.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </AnchorPane>
+                                                <AnchorPane layoutX="301.0" layoutY="24.0" prefHeight="151.0" prefWidth="243.0" stylesheets="@style.css">
+                                                   <styleClass>
+                                                      <String fx:value="bg-color-1" />
+                                                      <String fx:value="radius" />
+                                                   </styleClass>
+                                                   <children>
+                                                      <FontAwesomeIconView fill="WHITE" glyphName="USERS" layoutX="27.0" layoutY="101.0" size="70" />
+                                                      <Label alignment="CENTER_RIGHT" layoutX="104.0" layoutY="83.0" prefHeight="27.0" prefWidth="103.0" text="Customers" textFill="WHITE">
+                                                         <font>
+                                                            <Font size="17.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label alignment="CENTER_RIGHT" layoutX="108.0" layoutY="48.0" prefHeight="26.0" prefWidth="100.0" text="0" textFill="WHITE">
+                                                         <font>
+                                                            <Font size="17.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </AnchorPane>
+                                                <AnchorPane layoutX="577.0" layoutY="24.0" prefHeight="151.0" prefWidth="243.0" stylesheets="@style.css">
+                                                   <styleClass>
+                                                      <String fx:value="bg-color-1" />
+                                                      <String fx:value="radius" />
+                                                   </styleClass>
+                                                   <children>
+                                                      <FontAwesomeIconView fill="WHITE" glyphName="CAR" layoutX="27.0" layoutY="101.0" size="70" />
+                                                      <Label alignment="CENTER_RIGHT" layoutX="104.0" layoutY="83.0" prefHeight="27.0" prefWidth="103.0" text="Equipment" textFill="WHITE">
+                                                         <font>
+                                                            <Font size="17.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label alignment="CENTER_RIGHT" layoutX="108.0" layoutY="48.0" prefHeight="26.0" prefWidth="100.0" text="0" textFill="WHITE">
+                                                         <font>
+                                                            <Font size="17.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </AnchorPane>
+                                             </children>
+                                          </AnchorPane>
+                                       </children>
+                                    </AnchorPane>
+                                </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="12.0" layoutY="233.0" prefHeight="319.0" prefWidth="847.0" stylesheets="@style.css" AnchorPane.bottomAnchor="14.333333333333314" AnchorPane.leftAnchor="13.333333333333334" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="233.33333333333331">
+                           <styleClass>
+                              <String fx:value="white-bg" />
+                              <String fx:value="radius" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                           <children>
+                              <AnchorPane layoutX="573.0" layoutY="198.0" prefHeight="106.0" prefWidth="263.0" stylesheets="@style.css" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="573.3333333333334" AnchorPane.rightAnchor="10.0">
+                                 <styleClass>
+                                    <String fx:value="white-bg" />
+                                    <String fx:value="radius" />
+                                    <String fx:value="shadow" />
+                                 </styleClass>
+                              </AnchorPane>
+                              <AnchorPane layoutX="573.0" layoutY="10.0" prefHeight="175.0" prefWidth="263.0" stylesheets="@style.css" AnchorPane.rightAnchor="10.333333333333314">
+                                 <styleClass>
+                                    <String fx:value="white-bg" />
+                                    <String fx:value="radius" />
+                                    <String fx:value="shadow" />
+                                 </styleClass>
+                              </AnchorPane>
+                              <TableView layoutX="14.0" layoutY="10.0" prefHeight="291.0" prefWidth="543.0">
+                                <columns>
+                                  <TableColumn prefWidth="75.0" text="C1" />
+                                  <TableColumn prefWidth="75.0" text="C2" />
+                                </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children></AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</StackPane>
