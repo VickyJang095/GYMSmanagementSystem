@@ -17,6 +17,7 @@ password: password
       1. Java: Ngôn ngữ lập trình chính cho ứng dụng
       2. JavaFX: Dùng để xây dựng giao diện người dùng
       3. Maven: Công cụ quả lý dự án và thư viện
+      4. API : Công cụ tự động cập nhật ngày giờ với múi giờ GMT +7
 5. Cài đặt
       1. Cài đặt JDK 23 và Apache Netbeans 23
       2. Chạy ứng dụng : LoginController.java
