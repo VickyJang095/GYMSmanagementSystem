@@ -24,6 +24,16 @@ password: password
       1. Khi ứng dụng khởi động, một cửa sổ đăng nhập sẽ xuất hiện. Nhập thông tin tài khoản đã cung cấp ở trên
       2. Chọn " Coaches " trên giao diện chính.
                Nhập thông tin cần thiết : 
-               1. Id huấn luyện viên, tên huấn luyện viên, địa chỉ huấn luyện viên, giới tính, số điện thoại, trạng thái hoạt động.
-               2.Chọn các tính năng như "Add" để thêm thông tin
-         
+               1. ID huấn luyện viên, tên huấn luyện viên, địa chỉ huấn luyện viên, giới tính, số điện thoại, trạng thái hoạt động.
+               2.Chọn các tính năng như "Add" để thêm thông tin, "Update" để sửa thông tin, "Reset" để làm mới người tạo, "Delete" để xoá huấn luyện viên.
+               3. Thông tin sau khi được thêm sẽ nằm ở bên phải của giao diện theo thứ tự ID.
+      3. Chọn " Customer " trên giao diện chính.
+               Nhập thông tin cần thiết :
+               1. ID khách hàng, tên khác hàng, địa chỉ khách hàng, số điện thoại, giới tính, thời gian tập, trạng thái hoạt động, ngày bắt đầu, ngày kết thúc
+               2.Chọn các tính năng như "Add" để thêm thông tin, "Update" để sửa thông tin, "Reset" để làm mới người tạo, "Delete" để xoá khách hàng.
+               3. Thông tin sau khi được thêm sẽ nằm ở bên dưới của giao diện theo thứ tự ID.
+      4. Chọn " Payment " trên giao diện chính.
+               Nhập các thông tin cần thiết :
+               1. ID khách hàng, tên khách hàng, ngày bắt đầu, ngày kết thúc, số tiền thanh toán.
+               2. Chọn "PAY" để thanh toán và thông tin sẽ được hiển thị bên trái của giao diện.
+      5. Chọn " Logout " để đăng xuất tài khoản  và quay lại giao diện đăng nhập    
