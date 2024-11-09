@@ -37,4 +37,9 @@ password: password
                Nhập các thông tin cần thiết :
                1. ID khách hàng, tên khách hàng, ngày bắt đầu, ngày kết thúc, số tiền thanh toán.
                2. Chọn "PAY" để thanh toán và thông tin sẽ được hiển thị bên trái của giao diện.
-      5. Chọn " Logout " để đăng xuất tài khoản  và quay lại giao diện đăng nhập    
+         
+      5. Chọn " Search " để tìm kiếm thông tin khách hàng theo ID của khách hàng.
+               Nhập các thông tin cần thiết :
+               1. ID khách hàng.
+               2. Chọn "Search" để tìm kiếm thông tin khách hàng và sẽ được hiển thị ở bên dưới giao diện.
+      7. Chọn " Logout " để đăng xuất tài khoản  và quay lại giao diện đăng nhập  
