@@ -21,3 +21,9 @@ password: password
       1. Cài đặt JDK 23 và Apache Netbeans 23
       2. Chạy ứng dụng : LoginController.java
 6. Hướng dẫn sử dụng
+      1. Khi ứng dụng khởi động, một cửa sổ đăng nhập sẽ xuất hiện. Nhập thông tin tài khoản đã cung cấp ở trên
+      2. Chọn " Coaches " trên giao diện chính.
+               Nhập thông tin cần thiết : 
+               1. Id huấn luyện viên, tên huấn luyện viên, địa chỉ huấn luyện viên, giới tính, số điện thoại, trạng thái hoạt động.
+               2.Chọn các tính năng như "Add" để thêm thông tin
+         
